@@ -1,0 +1,54 @@
+<!--
+<div class="body">
+  Top {{$ctrl.bboys.length}} bboys of the red bull bc All-stars :
+  <div class="search">
+    <input type="search" ng-model="q" placeholder="  filter bboys..." aria-label="filter friends" />
+  </div>
+
+  <ul class="example-animate-container">
+    <li class="animate-repeat" ng-repeat="bboy in $ctrl.bboys | filter:q as results">
+      <img class="responsive-img" ng-src="{{bboy.imgUrl}}" alt="{{bboy.name}}" />
+       <span class="card-title">{{$index + 1}} - {{bboy.name}}</span>
+    </li>
+    <li class="animate-repeat" ng-if="results.length == 0">
+      <strong>Нет результатов...</strong>
+    </li>
+  </ul>
+</div>
+-->
+<!--<div class="bodysearch">
+  <div class="searching">
+    <input type="search" ng-model="q" placeholder="  filter bboys..." aria-label="filter friends" />
+  </div>
+</div>-->
+
+<md-subheader class="md-primary">Top {{$ctrl.bboys.length}} bboys of the red bull bc All-stars :
+  <md-input-container class="md-block" flex-gt-sm>
+    <label> filter bboys...</label>
+    <input ng-model="q">
+  </md-input-container></md-subheader>
+
+<ul class="cards-content">
+  <li class="cards-animate-repeat" ng-repeat="bboy in $ctrl.bboys | filter:q as results">
+    <md-card>
+      <img ng-src="{{bboy.imgUrl}}" class="md-card-image" alt="{{bboy.name}}">
+       <md-card-title>
+         <md-card-title-text>
+           <span class="md-headline"> {{bboy.name}}</span>
+         </md-card-title-text>
+       </md-card-title>
+<!--
+       <md-card-content>
+         <p>
+           The titles of Washed Out's breakthrough song and the first single from Paracosm share the
+           two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
+         </p>
+       </md-card-content>
+-->
+       <md-card-actions layout="column" layout-align="start">
+         <md-button class="md-raised md-primary" ng-href="{{bboy.youtubeUrl}}" target="_blank">Видео</md-button>
+
+        </md-card-actions>
+     </md-card>
+    </li>
+</ul>
