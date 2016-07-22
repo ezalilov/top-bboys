@@ -161,14 +161,13 @@ input[type=search]:focus {
 }
 
 @keyframes fade-in {
-
-  0%   {top:800px;}
-  100% {top:0px;}
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 
 @keyframes fade-out {
-  0%   {top:0px;}
-  100% {top:800px;}
+    from {opacity: 1;}
+  to {opacity: 0;}
 
 }
 
