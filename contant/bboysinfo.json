@@ -6,39 +6,48 @@
   },
   {
     "name": "Hong 10",
-    "imgUrl": "img/hong10.jpg"
+    "imgUrl": "img/hong10.jpg",
+    "youtubeUrl": "https://youtu.be/j_T6gYLG2gw"
   },
   {
     "name": "Neguim",
-    "imgUrl": "img/neguin.jpeg"
+    "imgUrl": "img/neguin.jpeg",
+    "youtubeUrl": "https://youtu.be/LlCHS9SPJU8"
   },
   {
     "name": "Cico",
-    "imgUrl": "img/cico.jpg"
+    "imgUrl": "img/cico.jpg",
+    "youtubeUrl": "https://youtu.be/b5ZywLDSamI"
   },
   {
     "name": "Menno",
-    "imgUrl": "img/menno.jpeg"
+    "imgUrl": "img/menno.jpeg",
+    "youtubeUrl": "https://youtu.be/B-QoYVeXAHY"
   },
   {
     "name": "Lil G",
-    "imgUrl": "img/lilg3.jpg"
+    "imgUrl": "img/lilg3.jpg",
+    "youtubeUrl": "https://youtu.be/DJY8jRx3e3g"
   },
   {
     "name": "Roxrite",
-    "imgUrl": "img/roxrite.jpg"
+    "imgUrl": "img/roxrite.jpg",
+    "youtubeUrl": "https://youtu.be/6__paTMrAqU"
   },
   {
     "name": "Ronnie",
-    "imgUrl": "img/ronnie.jpeg"
+    "imgUrl": "img/ronnie.jpeg",
+    "youtubeUrl": "https://youtu.be/nGX7h5QSB_E"
   },
   {
     "name": "Wing",
-    "imgUrl": "img/wing.jpeg"
+    "imgUrl": "img/wing.jpeg",
+    "youtubeUrl": "https://youtu.be/TUIbgnAKt7E"
   },
   {
     "name": "Taiske",
-    "imgUrl": "img/taiske.jpeg"
+    "imgUrl": "img/taiske.jpeg",
+    "youtubeUrl": "https://youtu.be/Pyi7ak80A5Y"
   }
 
 ]
