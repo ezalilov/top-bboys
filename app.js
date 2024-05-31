@@ -1,6 +1,7 @@
 'use strict';
 // master comment 
 // another master comment
+// some comment
 // Declare app level module which depends on views, and components
 angular.module('myApp', [
   'masterModule',
