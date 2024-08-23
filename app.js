@@ -2,9 +2,13 @@
 // master comment 
 // another master comment
 // Declare app level module which depends on views, and components
+
+// add another some comment
 angular.module('myApp', [
   'masterModule',
+  'featureModule',
   'ngRoute',
+  'featureModule2',
   'myApp.view1',
   'myApp.view2',
   'myApp.version',
