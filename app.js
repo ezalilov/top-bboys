@@ -5,6 +5,8 @@
 // Declare app level module which depends on views, and components
 angular.module('myApp', [
   'masterModule',
+  'featureModule',
+  'featureModule2',
   'ngRoute',
   'myApp.view1',
   'myApp.view2',
