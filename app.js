@@ -23,3 +23,4 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
     }).
     otherwise('/view1');
 }]);
+// sad
